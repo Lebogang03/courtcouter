@@ -1,0 +1,101 @@
+<ion-header>
+    <ion-toolbar color="danger">
+        <ion-title>
+            COURTCOUTER
+        </ion-title>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content>
+    <table>
+        <br>
+        <tr>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+            <th>
+                <!-- <div class="container"> -->
+                <ion-label>Team A</ion-label>
+                <ion-label>
+                    <h1>{{teama}}</h1>
+                </ion-label>
+
+
+
+                <tr>
+                    <th>
+                        <ion-button color="danger" (click)="minus4()" fill="outline">-4</ion-button>
+                        <ion-button color="danger" (click)="plus4()" fill="outline">+4</ion-button>
+                    </th>
+                </tr>
+
+
+                <tr>
+                    <th>
+                        <ion-button color="danger" (click)="minus3()" fill="outline">-3</ion-button>
+                        <ion-button color="danger" (click)="plus3()" fill="outline">+3</ion-button>
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        <ion-button color="danger" (click)="minus2()" fill="outline">-2</ion-button>
+                        <ion-button color="danger" (click)="plus2()" fill="outline">+2</ion-button>
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        <ion-button color="danger" (click)="minus1()" fill="outline">-1</ion-button>
+                        <ion-button color="danger" (click)="plus1()" fill="outline">+1</ion-button>
+                    </th>
+                </tr>
+
+                <!-- </div> -->
+            </th>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+            <div class="vl"></div>
+
+            <th>
+                <!-- <div class="container_1"> -->
+                <ion-label>Team B</ion-label>
+                <ion-label>
+                    <h1>{{teamb}}</h1>
+                </ion-label>
+
+                <tr>
+                    <th>
+                        <ion-button color="danger" (click)="Tminus4()" fill="outline">-4</ion-button>
+                        <ion-button color="danger" (click)="Tplus4()" fill="outline">+4</ion-button>
+                    </th>
+                </tr>
+
+
+                <tr>
+                    <th>
+                        <ion-button color="danger" (click)="Tminus3()" fill="outline">-3</ion-button>
+                        <ion-button color="danger" (click)="Tplus3()" fill="outline">+3</ion-button>
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+
+                        <ion-button color="danger" (click)="Tminus2()" fill="outline">-2</ion-button>
+                        <ion-button color="danger" (click)="Tplus2()" fill="outline">+2</ion-button>
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        <ion-button color="danger" (click)="Tminus1()" fill="outline">-1</ion-button>
+                        <ion-button color="danger" (click)="Tplus1()" fill="outline">+1</ion-button>
+                    </th>
+                </tr>
+
+            </th>
+        </tr>
+    </table>
+
+    <div class="footer">
+        <!--<ion-button color="danger" (click)="reset()" shape="fill">RESET</ion-button>-->
+        <ion-button expand="full" fill="outline" color="danger" (click)="reset()">RESET</ion-button>
+    </div>
+
+</ion-content>
